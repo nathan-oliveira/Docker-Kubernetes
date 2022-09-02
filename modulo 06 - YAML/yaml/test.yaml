@@ -1,0 +1,37 @@
+# Instruções para o programa
+nome: "Nathan"
+idade: 22 # Está é a idade do usuário
+
+# Este objeto descreve o nosso projeto
+objeto:
+  versao: 2
+  arquivo: "teste.txt"
+
+versao: 2 # Inteiro
+versao_completa: 3.14 # Float
+
+string_sem_aspas: Digite um texto aqui
+string_com_aspas: "Este tambem e um texto valido para o YAML" # O YAML não aceita unicode
+
+nulo: ~
+nulo_dois: null
+
+verdadeiro: True
+verdadeiro_dois: On
+
+falso: False
+falso_dois: Off
+
+lista: [1, 2, 3, 4, 5]
+lista_dois:
+  - "Teste"
+  - 10
+  - Outro teste
+  - True
+
+obj: { a: 1, b: 2, objeto_interno: { x: 2 } }
+obj_dois:
+  a: 1
+  b: 2
+  objeto_interno:
+    x: 2
